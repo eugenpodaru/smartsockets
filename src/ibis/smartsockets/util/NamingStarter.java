@@ -9,7 +9,7 @@ import java.util.Properties;
 
 public class NamingStarter {
 
-	private static final int DEFAULT_ACCEPT_PORT = 17878;
+	private static final int DEFAULT_ACCEPT_PORT = 17879;
 
 	private static Hub h;
 
@@ -26,7 +26,6 @@ public class NamingStarter {
 	public static void main(String[] args) {
 
 		boolean startRouter = false;
-		boolean startHub = true;
 		String namingPool = "ss";
 
 		DirectSocketAddress[] hubs = new DirectSocketAddress[args.length];
