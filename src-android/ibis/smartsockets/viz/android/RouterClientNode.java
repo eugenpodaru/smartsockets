@@ -59,7 +59,7 @@ public class RouterClientNode extends ClientNode {
         String adr = info.getClientAddress().toString();
 
         // System.out.println("Adding router " + adr);
-
+        
         setType(Node.TYPE_CIRCLE);
         setBackColor(Color.parseColor("#FF7F24"));
         setNodeBorderColor(Color.parseColor("#CD661D"));
